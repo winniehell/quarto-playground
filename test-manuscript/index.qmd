@@ -1,0 +1,10 @@
+::: {#fig-box}
+
+```{python}
+x = [1, 2, 3, 4, 5, 10]
+print(x)
+```
+
+This dataset has `{python} len(x)` observations.
+
+:::

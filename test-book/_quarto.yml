@@ -1,0 +1,10 @@
+project:
+  type: book
+
+book:
+  chapters:
+    - index.qmd
+
+format:
+  html: default
+  pdf: default
