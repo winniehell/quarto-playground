@@ -1,0 +1,19 @@
+[project]
+name = "quarto-playground"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "winniehell", email = "git@winniehell.de"},
+]
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "pandas>=2.2.3",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

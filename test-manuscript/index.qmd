@@ -1,10 +1,33 @@
-::: {#fig-box}
+---
+title: "Empty"
+engine: jupyter
+---
 
 ```{python}
-x = [1, 2, 3, 4, 5, 10]
-print(x)
+#| label: tbl-test1
+#| tbl-cap: Test1
+
+import pandas as pd
+
+pd.DataFrame(dict(x=[10,20,30]))
 ```
 
-This dataset has `{python} len(x)` observations.
+```{python}
+#| label: tbl-test2
+#| tbl-cap: >
+#|   Test2
 
-:::
+import pandas as pd
+
+pd.DataFrame(dict(x=[10,20,30]))
+```
+
+```{python}
+#| label: fig-test3
+#| fig-cap: >
+#|   Test3
+
+import pandas as pd
+
+pd.DataFrame(dict(x=[10,20,30]))
+```

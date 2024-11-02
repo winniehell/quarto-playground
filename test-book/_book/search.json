@@ -2,11 +2,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "Empty",
     "section": "",
-    "text": "x = [1, 2, 3, 4, 5, 10]\nprint(x)\n\n[1, 2, 3, 4, 5, 10]\n\n\n\n\nFigure 1: This dataset has 6 observations.",
+    "text": "import pandas as pd\n\npd.DataFrame(dict(x=[10,20,30]))\n\n\n\nTable 1: Test1\n\n\n\n\n\n\n\n\n\n\nx\n\n\n\n\n0\n10\n\n\n1\n20\n\n\n2\n30\n\n\n\n\n\n\n\n\n\n\n::: {#tbl-test2 .cell tbl-cap=’\nTest2 ’ execution_count=2}\nimport pandas as pd\n\npd.DataFrame(dict(x=[10,20,30]))\n\n\n\n\n\n\n\n\nx\n\n\n\n\n0\n10\n\n\n1\n20\n\n\n2\n30\n\n\n\n\n\n\n:::\n\nimport pandas as pd\n\npd.DataFrame(dict(x=[10,20,30]))\n\n\n\n\n\n\n\n\n\n\nx\n\n\n\n\n0\n10\n\n\n1\n20\n\n\n2\n30\n\n\n\n\n\n\n\nFigure 1: Test3",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Empty</span>"
     ]
   }
 ]
